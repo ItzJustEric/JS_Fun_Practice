@@ -1,5 +1,8 @@
 // identity(x) ⇒ any
-// Write a function identity that takes an argument and returns that argument
+
+identity = (x) => {
+    return x
+}
 
 
 //Write a binary function addb that takes two numbers and returns their sum
@@ -9,7 +12,11 @@ addb = (a,b) => {
 }
 
 
+//subb(a, b) ⇒ number Write a binary function subb that takes two numbers and returns their difference
+subb = (a,b) => {
+    return a - b
 
+}
 
 
 
